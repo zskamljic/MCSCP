@@ -37,18 +37,18 @@ Note: if you already happened to enter the info previously all you need to do is
 ##The config File
 After running the control pannel for the first time you will notice a file called config.cfg will be created, in it you will find:
 - a spam line of when the file was created (do what you want with it)
-- *server-ip* - this is the ip/url of the server, in case you so desire to edit it manualy
-- *server-port* - this is the port, on which rcon will be trying to connect
-- *rcon-password* - this is the password
+- **server-ip** - this is the ip/url of the server, in case you so desire to edit it manualy
+- **server-port** - this is the port, on which rcon will be trying to connect
+- **rcon-password** - this is the password
 
 Note: all of the above can be changed by clicking on "Manage", then "Use rcon" and clicking the "Click here..." text.
 
 Also in config.cfg:
-- *server-jar* - the path to the jar of the server, only used if you use direct access.
-- *server-param* - should you want to send some extra info to the server when using direct access (command line)
-- *min-memory* - initial ammount of memory given to Java when starting the server
-- *max-memoty* - max memory when hosting the server
-- *java-param* - extra info sent to java (default -XX:MaxPermSize=64M, since I've personaly needed it), separate these with space, start them with a - sign.
+- **server-jar** - the path to the jar of the server, only used if you use direct access.
+- **server-param** - should you want to send some extra info to the server when using direct access (command line)
+- **min-memory** - initial ammount of memory given to Java when starting the server
+- **max-memoty** - max memory when hosting the server
+- **java-param** - extra info sent to java (default -XX:MaxPermSize=64M, since I've personaly needed it), separate these with space, start them with a - sign.
 
 #Changelog
 - 1.10.2014:
